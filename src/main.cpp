@@ -104,7 +104,7 @@ std::vector<Cell> FloodFill(Cell start, int tiles[TILE_COUNT][TILE_COUNT], TileT
 struct Enemy
 {
     Vector2 position{};
-    int health = 5;
+    int health = 15;
     size_t curr = 0;
     size_t next = curr + 1;
     bool atEnd = false;
